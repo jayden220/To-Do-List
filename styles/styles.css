@@ -1,0 +1,40 @@
+body{
+    background-color: grey;
+}
+
+h1{
+    
+    text-shadow: 10px 10px 5px black;
+    font-size: 5em
+}
+
+.heading{
+    color: white;
+    text-align: center;
+    background-color: blue;
+    margin: .5em;
+}
+
+
+
+
+.listing{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listing *{
+    flex: 1;
+     min-width: 15em; 
+    margin: .5em;
+}
+
+.add{
+    width: 30px;
+    height: 20px;
+}
+
+@media only screen{
+    
+}
+
