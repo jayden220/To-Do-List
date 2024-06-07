@@ -12,10 +12,12 @@ h1{
     color: white;
     text-align: center;
     background-color: blue;
-    margin: .5em;
+    margin: .2em;
 }
 
-
+input{
+    height: 3em;
+}
 
 
 .listing{
@@ -26,15 +28,60 @@ h1{
 .listing *{
     flex: 1;
      min-width: 15em; 
-    margin: .5em;
+    margin: .2em .3em ;
 }
 
-.add{
+.list{
+    margin: 0em 1.5em;
+}
+
+ul{
+    padding-left: 0em;
+}
+
+li{
+    background-color: black;
+    list-style: none;
+    color: white;
+    padding: 1em;
+    margin: .5em 0;
+    
+}
+h4{
+    text-align: center;
+}
+
+button{
+    border-radius: 4px;
+}
+
+.check1, .check2, .check3{
     width: 30px;
     height: 20px;
 }
 
-@media only screen{
-    
+.del1, .del2, .del3{
+    background-color: red;
+    color: white;
+    align-items: end;
+    text-align: end;
 }
+
+/* .add{
+    width: 30px;
+    height: 3em;
+}
+
+.sort{
+    height: 3em;
+} */
+
+/* @media only screen and (max-width: 769px)and (min-width: 319px){
+.listing{
+    margin-left: 2.5em;
+
+}
+
+
+} */
 
